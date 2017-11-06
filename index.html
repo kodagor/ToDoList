@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Shopping List</title>
+        <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/open-iconic.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <h1 class="display-4">Shopping list</h1>    
+            </div>
+            <div class="row counter">
+                <h6>Items to buy:&nbsp;<span class="badge badge-primary badge-pill"></span></h6>
+            </div>
+            <div class="row list">
+                <ul class="list-group">
+                    <li class="list-group-item">Milk</li>                 
+                    <li class="list-group-item">Eggs</li>                 
+                    <li class="list-group-item">Bread</li>                 
+                    <li class="list-group-item">Carrots</li>                 
+                </ul>
+            </div>
+            <div class="row form">
+                <form class="form-inline" id="new-item-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="New item">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="add">Add</button>
+                    
+                </form>
+                <div class="new-item">
+                    <button class="btn btn-primary" id="new-item-btn">New item</button>
+                </div>
+            </div>
+        </div>
+        <script src="vendors/js/jquery-3.2.1.min.js"></script>
+        <script src="vendors/js/bootstrap.bundle.js"></script>
+        <script src="resources/js/script.js"></script>
+    </body>
+</html>
+
